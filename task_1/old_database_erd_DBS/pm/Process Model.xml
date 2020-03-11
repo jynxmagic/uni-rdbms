@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="BD915206-F9EA-282F-E5FB-C2718421BA55">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 15:25:44 UTC</createdTime>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

@@ -1,0 +1,6 @@
+4. lack of referential integrity
+6. no thought for upgradability - what if i wanted 4 genres? etc
+7. big problem if the database uses a binary table locking system for transactions
+8. unrelated data is stored in each table. is 'job category' related to the title?
+9. some tuples have multiple values in specific columns. it would appear that some data is being stored as a csv (; delimiter)
+10. duplicate data

@@ -1,0 +1,248 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="11149D40-6064-F4DD-99F7-DA310B2E8AAD" name="Names">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 15:29:47 UTC</createdTime>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>None</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Name ID" id="DAAB45F5-8FF8-AAE9-90E2-4C1422124F1E">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 15:29:56 UTC</createdTime>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>9 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="5C5CB86F-F743-F06B-E360-4933D080DECE">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 15:31:29 UTC</createdTime>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Birthyear" id="95B8BB3E-A324-DAD0-D59F-A2598ACE67C7">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 15:32:58 UTC</createdTime>
+<comment><![CDATA[DATE in format (Y)]]></comment>
+<commentInRDBMS><![CDATA[DATE in format (Y)]]></commentInRDBMS>
+<notes><![CDATA[DATE in format (Y)]]></notes>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Deathyear" id="67E6557A-E498-EF1C-E266-37976108ACF8">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 15:34:39 UTC</createdTime>
+<comment><![CDATA[DATE in format (Y)]]></comment>
+<commentInRDBMS><![CDATA[DATE in format (Y)]]></commentInRDBMS>
+<notes><![CDATA[DATE in format (Y)]]></notes>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Profession1" id="B7309220-72C5-B42F-608F-1891C2C8F079">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 15:35:29 UTC</createdTime>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Profession2" id="E83027D5-5A27-0C11-66B1-37D325632F75">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 15:36:07 UTC</createdTime>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Profession3" id="EEC9729D-CFFF-FF22-5D24-5D313F466719">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 15:36:21 UTC</createdTime>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KnownForTitles1" id="CD756C2E-20FA-814D-7317-2590A025C4F3">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 15:36:42 UTC</createdTime>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>9 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KnownForTitles2" id="CE4DF12B-7777-15BC-CF20-C6D5ED132760">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 15:38:04 UTC</createdTime>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>9 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KnownForTitles3" id="C4CB7CCA-D1D4-C938-4C96-7F0D7C72C92C">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 15:38:22 UTC</createdTime>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>9 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KnownForTitles4" id="06EA340A-9961-AA98-06AD-D71A3AE5C499">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 15:38:46 UTC</createdTime>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>9 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KnownForTitles12" directorySegmentName="seg_0" id="01ECA78F-338F-2481-19D9-55EE2B59822E">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 16:57:07 UTC</createdTime>
+<generatorID>B3F85B83-A6FE-CB2C-A8B4-41122CEE09A2</generatorID>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>454C9E43-47B2-5688-B483-8B84A8198980</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KnownForTitles32" directorySegmentName="seg_0" id="FC6CB04A-1BD8-C025-1B59-63102A32AAF7">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 16:57:07 UTC</createdTime>
+<generatorID>712D2663-FC26-3C26-51E5-2A45A34885F2</generatorID>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>454C9E43-47B2-5688-B483-8B84A8198980</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KnownForTitles42" directorySegmentName="seg_0" id="EC9DAAA6-5127-5E05-9842-5A30EEFEC9C7">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 16:57:07 UTC</createdTime>
+<generatorID>113E59F7-C8BF-6F26-E306-61CE0F332B24</generatorID>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>454C9E43-47B2-5688-B483-8B84A8198980</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KnownForTitles21" id="964D6606-D0F7-75F5-7A7A-10F1B0A49E38">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 17:50:53 UTC</createdTime>
+<generatorID>E4388F6E-7C0E-58A0-6E72-E69533F2B2E4</generatorID>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>454C9E43-47B2-5688-B483-8B84A8198980</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7FFB52D8-2362-5474-4C88-5E5A69FD85B6" name="Names PK">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 15:30:04 UTC</createdTime>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DAAB45F5-8FF8-AAE9-90E2-4C1422124F1E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="33E2EF6E-75FC-09A6-47AD-2CAA350EE6E8" name="Profession">
+<createdBy>carrc</createdBy>
+<createdTime>2020-03-07 14:05:03 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="4783F65C-C53E-9899-9B35-C4203822AC1D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="profession_id" id="962F8D66-5E37-D1BE-158F-349BCDE88F96">
+<createdBy>carrc</createdBy>
+<createdTime>2020-03-07 14:05:15 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="4783F65C-C53E-9899-9B35-C4203822AC1D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>12 BYTE</dataTypeSize>
+<ownDataTypeParameters>12 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="profession" id="E2DA1753-BC0F-5D1D-701F-806AF1C38EA5">
+<createdBy>carrc</createdBy>
+<createdTime>2020-03-07 14:06:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="4783F65C-C53E-9899-9B35-C4203822AC1D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="profession_id1" id="B145EC8C-B5C1-46AA-1417-6C832FDADB5D">
+<createdBy>carrc</createdBy>
+<createdTime>2020-03-07 14:12:04 UTC</createdTime>
+<generatorID>A6853515-92A1-8CF6-ECDF-6BD55BE08251</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="4783F65C-C53E-9899-9B35-C4203822AC1D" value="true"/>
+</engineerTo>
+<referedAttribute>625750F1-3998-2694-E4D6-BBBF19734BFA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>12 BYTE</dataTypeSize>
+<ownDataTypeParameters>12 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="people_id" id="59565C98-70AA-4F92-F8A9-BA017534B8C9">
+<createdBy>carrc</createdBy>
+<createdTime>2020-03-07 14:12:04 UTC</createdTime>
+<generatorID>A6853515-92A1-8CF6-ECDF-6BD55BE08251</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="4783F65C-C53E-9899-9B35-C4203822AC1D" value="true"/>
+</engineerTo>
+<referedAttribute>96BCDEFB-9F19-6AC2-867C-4FECC92FDBC9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>12 BYTE</dataTypeSize>
+<ownDataTypeParameters>12 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="67C7006F-AD2C-F24C-0DCF-3DFB46CFB163" name="Profession PK">
+<createdBy>carrc</createdBy>
+<createdTime>2020-03-07 14:05:21 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="4783F65C-C53E-9899-9B35-C4203822AC1D" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>962F8D66-5E37-D1BE-158F-349BCDE88F96</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

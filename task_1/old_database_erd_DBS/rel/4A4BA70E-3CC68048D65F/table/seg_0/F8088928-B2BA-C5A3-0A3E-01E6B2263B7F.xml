@@ -1,0 +1,223 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F8088928-B2BA-C5A3-0A3E-01E6B2263B7F" name="Names">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 16:14:32 UTC</createdTime>
+<generatorID>11149D40-6064-F4DD-99F7-DA310B2E8AAD</generatorID>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<normalForm>None</normalForm>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Name_ID" id="10684C7B-8374-0E63-E554-3E8A863372EF">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 16:14:32 UTC</createdTime>
+<generatorID>DAAB45F5-8FF8-AAE9-90E2-4C1422124F1E</generatorID>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>9 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="A11B3347-8FE4-3CA8-BD58-141A3CFD9420">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 16:14:32 UTC</createdTime>
+<generatorID>5C5CB86F-F743-F06B-E360-4933D080DECE</generatorID>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Birthyear" id="02194CD4-78BC-1E49-3156-204DF2C8DCD1">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 16:14:32 UTC</createdTime>
+<comment><![CDATA[DATE in format (Y)]]></comment>
+<commentInRDBMS><![CDATA[DATE in format (Y)]]></commentInRDBMS>
+<generatorID>95B8BB3E-A324-DAD0-D59F-A2598ACE67C7</generatorID>
+<notes><![CDATA[DATE in format (Y)]]></notes>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Deathyear" id="5B70A90F-CC90-66AD-93F0-F6C8D4F0525F">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 16:14:32 UTC</createdTime>
+<comment><![CDATA[DATE in format (Y)]]></comment>
+<commentInRDBMS><![CDATA[DATE in format (Y)]]></commentInRDBMS>
+<generatorID>67E6557A-E498-EF1C-E266-37976108ACF8</generatorID>
+<notes><![CDATA[DATE in format (Y)]]></notes>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Profession1" id="EE3F7637-3506-6D73-1243-9ECA48D4871A">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 16:14:32 UTC</createdTime>
+<generatorID>B7309220-72C5-B42F-608F-1891C2C8F079</generatorID>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Profession2" id="560A21A7-EAC2-2FD0-2C6E-B159300D42F1">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 16:14:32 UTC</createdTime>
+<generatorID>E83027D5-5A27-0C11-66B1-37D325632F75</generatorID>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Profession3" id="25CB197F-51A7-632A-02DB-477A1E104CC1">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 16:14:32 UTC</createdTime>
+<generatorID>EEC9729D-CFFF-FF22-5D24-5D313F466719</generatorID>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KnownForTitles1" id="4BD5C84C-F329-31A7-79DB-9B1FD8942E23">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 16:53:53 UTC</createdTime>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="706FEB3C-39A2-DAFA-AA49-3B771F2DBBD7" referredColumn="7E8ADB77-6E65-7C7F-A4C4-07230C7047BA"/>
+</associations>
+</Column>
+<Column name="KnownForTitles2" id="9032F471-8755-1CF5-CFF7-0FD00D206F9F">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 16:54:05 UTC</createdTime>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A0A69742-B3BA-E0AA-2422-02625AD12D4F" referredColumn="7E8ADB77-6E65-7C7F-A4C4-07230C7047BA"/>
+</associations>
+</Column>
+<Column name="KnownForTitles3" id="CC021427-26CA-C84C-35C6-D33E8A36EC0D">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 16:54:14 UTC</createdTime>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8602FD40-E707-6B6D-5C1A-7F62FCE39900" referredColumn="7E8ADB77-6E65-7C7F-A4C4-07230C7047BA"/>
+</associations>
+</Column>
+<Column name="KnownForTitles4" id="B85E9280-EF12-4044-6412-725F501659BA">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 16:54:20 UTC</createdTime>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="38BCA9B0-9364-89D5-9DDE-BA5E736D34AC" referredColumn="7E8ADB77-6E65-7C7F-A4C4-07230C7047BA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1BA85659-91F5-AFA0-FB98-B1797EC56713" name="Names_PK">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 16:14:32 UTC</createdTime>
+<generatorID>7FFB52D8-2362-5474-4C88-5E5A69FD85B6</generatorID>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10684C7B-8374-0E63-E554-3E8A863372EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5EAC4815-59F2-225D-0567-F8CD1B63B9CF" name="KnownForTitles1_Titles_FK">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 16:53:53 UTC</createdTime>
+<generatorID>D4019E14-D8A5-46A5-AFC8-C6FA176887FE</generatorID>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BD5C84C-F329-31A7-79DB-9B1FD8942E23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C42E952-31E2-B027-7015-D6C108E0E919" name="KnownForTitles2_Titles_FK">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 16:54:05 UTC</createdTime>
+<generatorID>D4019E14-D8A5-46A5-AFC8-C6FA176887FE</generatorID>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9032F471-8755-1CF5-CFF7-0FD00D206F9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AD1DFE3E-1795-284B-F581-D6F0BAFF3718" name="KnownForTitles3_Titles_FK">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 16:54:14 UTC</createdTime>
+<generatorID>D4019E14-D8A5-46A5-AFC8-C6FA176887FE</generatorID>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC021427-26CA-C84C-35C6-D33E8A36EC0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A1BF9C0F-241E-561D-4A59-255CFD73AAD5" name="KnownForTitles4_Titles_FK">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 16:54:20 UTC</createdTime>
+<generatorID>D4019E14-D8A5-46A5-AFC8-C6FA176887FE</generatorID>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B85E9280-EF12-4044-6412-725F501659BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

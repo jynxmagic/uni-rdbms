@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="old_database_erd_DBS" id="3AA4F8D4-DF10-E5A4-22D5-4BD82C526F44" version="3.5">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 15:25:43 UTC</createdTime>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>3AA4F8D4-DF10-E5A4-22D5-4BD82C526F44</designId>
+</OSDM_Design>

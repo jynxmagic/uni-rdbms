@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Director4_Names_FK" directorySegmentName="seg_0" id="A4431A53-D760-3965-D767-02A2E69E2760">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 17:50:53 UTC</createdTime>
+<generatorID>2BB7F078-15A6-F747-57EB-18E93ADEA92B</generatorID>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<sourcePk>7FFB52D8-2362-5474-4C88-5E5A69FD85B6</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>11149D40-6064-F4DD-99F7-DA310B2E8AAD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A6FDABC2-8D1D-2F06-9D57-0B8DDA9F9A77</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

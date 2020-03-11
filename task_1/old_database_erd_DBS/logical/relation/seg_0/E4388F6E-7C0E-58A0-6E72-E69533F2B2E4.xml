@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="KnownForTitles2_Titles_FK" directorySegmentName="seg_0" id="E4388F6E-7C0E-58A0-6E72-E69533F2B2E4">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 17:50:53 UTC</createdTime>
+<generatorID>A0A69742-B3BA-E0AA-2422-02625AD12D4F</generatorID>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<sourcePk>D4019E14-D8A5-46A5-AFC8-C6FA176887FE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A6FDABC2-8D1D-2F06-9D57-0B8DDA9F9A77</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>11149D40-6064-F4DD-99F7-DA310B2E8AAD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

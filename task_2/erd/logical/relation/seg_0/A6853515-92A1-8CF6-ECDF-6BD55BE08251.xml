@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Profession_People" directorySegmentName="seg_0" id="A6853515-92A1-8CF6-ECDF-6BD55BE08251">
+<createdBy>carrc</createdBy>
+<createdTime>2020-03-07 14:12:04 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="4783F65C-C53E-9899-9B35-C4203822AC1D" value="true"/>
+</engineerTo>
+<sourcePk>2B38A936-534D-9717-BD1F-9B549CE8912C</sourcePk>
+<targetPk>67C7006F-AD2C-F24C-0DCF-3DFB46CFB163</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>59256AD1-8FFC-4EF6-B6FC-2B290A4CAE06</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>33E2EF6E-75FC-09A6-47AD-2CAA350EE6E8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

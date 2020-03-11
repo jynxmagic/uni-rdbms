@@ -1,0 +1,481 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A6FDABC2-8D1D-2F06-9D57-0B8DDA9F9A77" name="Titles">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 15:40:53 UTC</createdTime>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Title ID" id="454C9E43-47B2-5688-B483-8B84A8198980">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 15:41:13 UTC</createdTime>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>9 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Title" id="71ABDEB4-EB08-75FB-4FCE-050EB06E8714">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 15:42:00 UTC</createdTime>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Released" id="09F05190-B930-7919-1374-BB61987E8716">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 15:42:25 UTC</createdTime>
+<comment><![CDATA[DATE in format (Y)]]></comment>
+<commentInRDBMS><![CDATA[DATE in format (Y)]]></commentInRDBMS>
+<notes><![CDATA[DATE in format (Y)]]></notes>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Runtime" id="3FADD8D5-420C-C793-B0A3-05F64CD78671">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 15:43:16 UTC</createdTime>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Genre1" id="85370FED-2EE5-7055-D263-17E3003E2596">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 15:43:55 UTC</createdTime>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Genre2" id="DBAFA942-D60A-F8C3-7528-ABAFEE392D83">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 15:44:14 UTC</createdTime>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Genre3" id="EF099969-4345-9E06-3282-5B580ABD546C">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 15:44:25 UTC</createdTime>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Director1" id="8FDEFFE7-1870-D9D3-D4B3-3CE81B542092">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 15:44:34 UTC</createdTime>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>9 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Director2" id="33C78D49-064C-8A17-D554-55F11E58DCC7">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 15:45:15 UTC</createdTime>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>9 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Director3" id="5AE579CE-A8FE-88D8-E3C8-CCD240558BCA">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 15:45:30 UTC</createdTime>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>9 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Director4" id="9099870A-DC72-BB42-EF7A-F364D0DD5658">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 15:45:44 UTC</createdTime>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>9 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Writer1" id="A5CF5C8C-A10B-4C8A-84A8-A611A7325FF3">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 15:45:56 UTC</createdTime>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>9 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Writer2" id="A8C49872-5165-17A9-6A92-EED184A7498D">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 15:46:13 UTC</createdTime>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>9 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Writer3" id="BAB39E6E-AAAD-4256-C8DE-4144A3E05A92">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 15:46:26 UTC</createdTime>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>9 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Writer4" id="21EFEC88-2F3E-92B7-326A-E831899C21CA">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 15:46:37 UTC</createdTime>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>9 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Writer5" id="9DD3C87C-C47C-8CBE-A7B4-74B835C3DF0A">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 15:46:57 UTC</createdTime>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>9 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Principal" id="5C8E12C0-C42A-32EB-26A2-7D5258A97545">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 15:47:10 UTC</createdTime>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>9 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="JobCategory" id="F8C4094C-4E0F-C573-EEF2-76D5C4DEF198">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 15:48:01 UTC</createdTime>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CharactersPlayed" id="3F1F477B-E782-6B4D-28A4-64E47C71B7AC">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 15:49:32 UTC</createdTime>
+<comment><![CDATA[CSV W/ DELIMITER ;]]></comment>
+<commentInRDBMS><![CDATA[CSV DELIMITER ;]]></commentInRDBMS>
+<notes><![CDATA[CSV W/ DELIMITER ;]]></notes>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AverageRating" id="F40A3FFE-5AC3-8D7F-89FE-6A0BF644D9EF">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 15:49:55 UTC</createdTime>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NumVotes" id="9FD40CB0-CCFC-0789-FDE7-7D3D2FF6F6C5">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 15:50:29 UTC</createdTime>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Director12" id="47B7764D-1B61-E0FB-8ABC-8E467C28E0A4">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 16:57:07 UTC</createdTime>
+<generatorID>9E6BC026-D140-B0B0-171A-034EB35DB8CD</generatorID>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>DAAB45F5-8FF8-AAE9-90E2-4C1422124F1E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Director32" id="35FCB967-AFF6-53C1-6361-0A6F626D5984">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 16:57:07 UTC</createdTime>
+<generatorID>9748C532-E871-7739-FEAA-BC21A95C63AC</generatorID>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>DAAB45F5-8FF8-AAE9-90E2-4C1422124F1E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Writer12" id="728F5E0E-9885-C610-934A-6E671B8109E1">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 16:57:07 UTC</createdTime>
+<generatorID>63172C00-2F34-C7C7-7F83-5E7F9910BFED</generatorID>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>DAAB45F5-8FF8-AAE9-90E2-4C1422124F1E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Writer22" id="94E87EE4-73D1-861F-17F2-7E56D805DEED">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 16:57:07 UTC</createdTime>
+<generatorID>897842EE-1033-B753-FAA8-1E544B1FC2C8</generatorID>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>DAAB45F5-8FF8-AAE9-90E2-4C1422124F1E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Writer32" id="E32B128D-3E3E-EB4B-CDBC-C19D93B13E87">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 16:57:07 UTC</createdTime>
+<generatorID>5A9C3E04-D344-D058-EDF7-ADF44EEDAF1D</generatorID>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>DAAB45F5-8FF8-AAE9-90E2-4C1422124F1E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Writer42" id="6BF4E70E-AA6F-9907-33C4-137D8DC41359">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 16:57:07 UTC</createdTime>
+<generatorID>691A3118-4608-AC71-1CF5-7680CAF687CF</generatorID>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>DAAB45F5-8FF8-AAE9-90E2-4C1422124F1E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Writer52" id="48F3ED57-2288-91D1-331A-DE2B435CAE4B">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 16:57:07 UTC</createdTime>
+<generatorID>249ECB74-6F2D-77AF-A408-4E4962FD0E6B</generatorID>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>DAAB45F5-8FF8-AAE9-90E2-4C1422124F1E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Principal2" id="431C0731-FBBC-253A-8626-F227B67C9152">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 16:57:07 UTC</createdTime>
+<generatorID>B6B8A286-0681-B516-BE68-3B90E30BE1EF</generatorID>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>DAAB45F5-8FF8-AAE9-90E2-4C1422124F1E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Director21" id="9DC2F37B-E7C6-45EE-223A-1DE36AF225D2">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 17:50:53 UTC</createdTime>
+<generatorID>0B0693C7-3B0A-E1CA-F9CB-48EE119D41E4</generatorID>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>DAAB45F5-8FF8-AAE9-90E2-4C1422124F1E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Director41" id="E721D4E8-502A-D039-D126-25AFED294803">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 17:50:53 UTC</createdTime>
+<generatorID>A4431A53-D760-3965-D767-02A2E69E2760</generatorID>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>DAAB45F5-8FF8-AAE9-90E2-4C1422124F1E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D4019E14-D8A5-46A5-AFC8-C6FA176887FE" name="Titles PK">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 15:41:56 UTC</createdTime>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<engineerTo>
+<item key="4A4BA70E-E279-DFF9-6467-3CC68048D65F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>454C9E43-47B2-5688-B483-8B84A8198980</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

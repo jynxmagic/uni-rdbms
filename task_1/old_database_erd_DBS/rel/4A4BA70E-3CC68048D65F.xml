@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relationship Names/Titles" id="4A4BA70E-E279-DFF9-6467-3CC68048D65F" mainViewID="EF5C6124-F445-748F-3069-B4E48BCA12B9">
+<createdBy>carrc</createdBy>
+<createdTime>2020-02-29 15:25:45 UTC</createdTime>
+<ownerDesignName>old_database_erd_DBS</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>
