@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Title director Director FK" directorySegmentName="seg_0" id="8F2D2770-D3EB-B0BB-2B01-56871D0F5CAF">
+<createdBy>carrc</createdBy>
+<createdTime>2020-03-25 16:06:27 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="20DE8314-9FA1-4284-E60D-DE0D360C7C20" value="true"/>
+<item key="4783F65C-C53E-9899-9B35-C4203822AC1D" value="true"/>
+</engineerTo>
+<sourcePk>774D9923-F1C5-BB22-8EF1-EF8753AC7392</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>693514C6-9442-E147-9072-8A5D99E3AEA9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>08AD1F45-3E63-2FCA-5E31-599C8447EF56</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

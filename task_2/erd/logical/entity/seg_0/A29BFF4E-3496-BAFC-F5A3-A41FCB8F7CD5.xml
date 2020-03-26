@@ -4,6 +4,7 @@
 <createdTime>2020-03-07 14:00:26 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
+<item key="20DE8314-9FA1-4284-E60D-DE0D360C7C20" value="true"/>
 <item key="4783F65C-C53E-9899-9B35-C4203822AC1D" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -15,102 +16,59 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="name_id" id="5CDA7B22-478C-D629-5E5E-B0458C1870A3">
+<Attribute name="name id" id="5CDA7B22-478C-D629-5E5E-B0458C1870A3">
 <createdBy>carrc</createdBy>
 <createdTime>2020-03-07 14:01:36 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
+<item key="20DE8314-9FA1-4284-E60D-DE0D360C7C20" value="true"/>
 <item key="4783F65C-C53E-9899-9B35-C4203822AC1D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT057</logicalDatatype>
-<dataTypeSize>12 BYTE</dataTypeSize>
-<ownDataTypeParameters>12 BYTE,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 BYTE</dataTypeSize>
+<ownDataTypeParameters>11 BYTE,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="name" id="93193F44-8C5D-0122-C5FC-0C3E13C0F724">
 <createdBy>carrc</createdBy>
 <createdTime>2020-03-07 14:02:16 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
+<item key="20DE8314-9FA1-4284-E60D-DE0D360C7C20" value="true"/>
 <item key="4783F65C-C53E-9899-9B35-C4203822AC1D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT040</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="birth_year" id="AD5DFEDD-6C70-DA7A-EDD7-E6C929521D8B">
+<Attribute name="birth year" id="AD5DFEDD-6C70-DA7A-EDD7-E6C929521D8B">
 <createdBy>carrc</createdBy>
 <createdTime>2020-03-07 14:02:38 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
+<item key="20DE8314-9FA1-4284-E60D-DE0D360C7C20" value="true"/>
 <item key="4783F65C-C53E-9899-9B35-C4203822AC1D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="death_year" id="71C45C6F-DE87-497B-B3E1-8232E2DD58DD">
+<Attribute name="death year" id="71C45C6F-DE87-497B-B3E1-8232E2DD58DD">
 <createdBy>carrc</createdBy>
 <createdTime>2020-03-07 14:04:20 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
+<item key="20DE8314-9FA1-4284-E60D-DE0D360C7C20" value="true"/>
 <item key="4783F65C-C53E-9899-9B35-C4203822AC1D" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="name_title_id" id="9B02220F-78A1-E6E7-E0AC-AFFE28A485DC">
-<createdBy>carrc</createdBy>
-<createdTime>2020-03-08 14:16:53 UTC</createdTime>
-<generatorID>9F3A59B5-DF18-AD82-F01D-FDB6B9BB2887</generatorID>
-<ownerDesignName>erd</ownerDesignName>
-<engineerTo>
-<item key="4783F65C-C53E-9899-9B35-C4203822AC1D" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>E5E7FB49-22D6-163C-10FC-FC1B7D5416AC</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT057</logicalDatatype>
-<dataTypeSize>12 BYTE</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="profession_id" id="32952A84-217D-6CC1-056F-35ECAD00173A">
-<createdBy>carrc</createdBy>
-<createdTime>2020-03-08 14:17:18 UTC</createdTime>
-<generatorID>DA276EFE-924E-D38D-871D-70C5648A790E</generatorID>
-<ownerDesignName>erd</ownerDesignName>
-<engineerTo>
-<item key="4783F65C-C53E-9899-9B35-C4203822AC1D" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>625750F1-3998-2694-E4D6-BBBF19734BFA</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT057</logicalDatatype>
-<dataTypeSize>12 BYTE</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="people_id" id="D641F9D3-DF71-692F-ADD8-5980F642042B">
-<createdBy>carrc</createdBy>
-<createdTime>2020-03-08 14:17:18 UTC</createdTime>
-<generatorID>DA276EFE-924E-D38D-871D-70C5648A790E</generatorID>
-<ownerDesignName>erd</ownerDesignName>
-<engineerTo>
-<item key="4783F65C-C53E-9899-9B35-C4203822AC1D" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>96BCDEFB-9F19-6AC2-867C-4FECC92FDBC9</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT057</logicalDatatype>
-<dataTypeSize>12 BYTE</dataTypeSize>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -119,8 +77,8 @@
 <createdBy>carrc</createdBy>
 <createdTime>2020-03-07 14:01:58 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
+<item key="20DE8314-9FA1-4284-E60D-DE0D360C7C20" value="true"/>
 <item key="4783F65C-C53E-9899-9B35-C4203822AC1D" value="false"/>
 </engineerTo>
 <pk>true</pk>

@@ -4,6 +4,7 @@
 <createdTime>2020-03-07 14:48:26 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
+<item key="20DE8314-9FA1-4284-E60D-DE0D360C7C20" value="true"/>
 <item key="4783F65C-C53E-9899-9B35-C4203822AC1D" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -15,27 +16,20 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="character_id" id="6C00B9F0-DAFA-047F-B495-8D0EAED5FED7">
+<Attribute name="character name" id="6C00B9F0-DAFA-047F-B495-8D0EAED5FED7">
 <createdBy>carrc</createdBy>
 <createdTime>2020-03-07 14:48:33 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
+<item key="20DE8314-9FA1-4284-E60D-DE0D360C7C20" value="true"/>
 <item key="4783F65C-C53E-9899-9B35-C4203822AC1D" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="character" id="02A49E13-69AE-8407-1F44-9B6BE349A89B">
-<createdBy>carrc</createdBy>
-<createdTime>2020-03-07 14:48:37 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
-<engineerTo>
-<item key="4783F65C-C53E-9899-9B35-C4203822AC1D" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 </Entity>

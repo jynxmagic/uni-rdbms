@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8887C16B-A16A-4BE4-6070-D41598BD3121" containerWithKeyObject="1E266068-E6EF-8C4B-C75B-BB0F02C3E692" localFKIndex="D9544833-CFA0-35EB-3021-36D07A8FB1AC" name="Title_Rating_Rating_votes_FK">
+<createdBy>carrc</createdBy>
+<createdTime>2020-03-25 16:14:14 UTC</createdTime>
+<generatorID>287EBB37-762A-7F81-92ED-421CD284D6A6</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<referredTableLongName>Rating_votes</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7A43BC79-E381-F0C1-967F-EF2219919E63</referredTableID>
+<keyObject>48518B74-A972-EF75-7433-4F9F84448FF8</keyObject>
+<referredKeyID>48518B74-A972-EF75-7433-4F9F84448FF8</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>Rating_votes_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

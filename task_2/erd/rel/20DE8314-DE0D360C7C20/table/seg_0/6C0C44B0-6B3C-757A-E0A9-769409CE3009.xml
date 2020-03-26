@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6C0C44B0-6B3C-757A-E0A9-769409CE3009" name="Title">
+<createdBy>carrc</createdBy>
+<createdTime>2020-03-25 16:14:14 UTC</createdTime>
+<generatorID>6A54144E-7A5B-7568-4109-B88F4DD48646</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="title" id="392ADC77-AD26-0A98-2570-56E331ED5316">
+<createdBy>carrc</createdBy>
+<createdTime>2020-03-25 16:14:14 UTC</createdTime>
+<generatorID>6083A9AA-122E-41A0-E39E-AEBE976AA915</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="released" id="58E12AEF-7561-BF52-3CB3-347027C8237C">
+<createdBy>carrc</createdBy>
+<createdTime>2020-03-25 16:14:14 UTC</createdTime>
+<generatorID>BF8CE5FD-54C5-EFCA-A8CA-6208EDD5C96E</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="runtime" id="16012ADE-F30B-5003-BDEC-C4EF1AAC5437">
+<createdBy>carrc</createdBy>
+<createdTime>2020-03-25 16:14:14 UTC</createdTime>
+<generatorID>B6AA522D-CE05-3EA9-3A41-8C3F3F82F5B6</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Title_ID" id="C3116D41-892C-A2D7-DA70-86406DA805FC">
+<createdBy>carrc</createdBy>
+<createdTime>2020-03-25 16:14:14 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 BYTE</dataTypeSize>
+<ownDataTypeParameters>11 BYTE,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8EEB0201-5EDF-5CC4-61D3-E2FD0ACD5748" name="Title_PK">
+<createdBy>carrc</createdBy>
+<createdTime>2020-03-25 16:14:14 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="C3116D41-892C-A2D7-DA70-86406DA805FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="88B17113-3990-6446-2B6F-26CFDF80CDFE" name="Name_Title">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="88B17113-3990-6446-2B6F-26CFDF80CDFE" name="People Title">
 <createdBy>carrc</createdBy>
 <createdTime>2020-03-07 14:15:00 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
+<item key="20DE8314-9FA1-4284-E60D-DE0D360C7C20" value="true"/>
 <item key="4783F65C-C53E-9899-9B35-C4203822AC1D" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -15,58 +16,22 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="name_title_id" id="E5E7FB49-22D6-163C-10FC-FC1B7D5416AC">
+<Attribute name="People name id" id="4968118C-3E05-2234-BD15-EBC0D98832CB">
 <createdBy>carrc</createdBy>
-<createdTime>2020-03-07 14:15:14 UTC</createdTime>
+<createdTime>2020-03-25 16:04:54 UTC</createdTime>
+<generatorID>BFC81CDB-995F-4089-0D90-9BCF7491BFF8</generatorID>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
+<item key="20DE8314-9FA1-4284-E60D-DE0D360C7C20" value="true"/>
 <item key="4783F65C-C53E-9899-9B35-C4203822AC1D" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5CDA7B22-478C-D629-5E5E-B0458C1870A3</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT057</logicalDatatype>
-<dataTypeSize>12 BYTE</dataTypeSize>
-<ownDataTypeParameters>12 BYTE,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="name_id" id="D418F9C6-E936-428C-2A43-C73A9A953784">
-<createdBy>carrc</createdBy>
-<createdTime>2020-03-07 14:15:40 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
-<engineerTo>
-<item key="4783F65C-C53E-9899-9B35-C4203822AC1D" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT057</logicalDatatype>
-<dataTypeSize>12 BYTE</dataTypeSize>
-<ownDataTypeParameters>12 BYTE,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="title_id" id="7AC4B916-A7D7-1DEB-3BAD-5F5D8A13F805">
-<createdBy>carrc</createdBy>
-<createdTime>2020-03-07 14:16:05 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
-<engineerTo>
-<item key="4783F65C-C53E-9899-9B35-C4203822AC1D" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT057</logicalDatatype>
-<dataTypeSize>12 BYTE</dataTypeSize>
-<ownDataTypeParameters>12 BYTE,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="E028556C-DA7D-419D-5E39-2BD568D8A3B5" name="Name_Title PK">
-<createdBy>carrc</createdBy>
-<createdTime>2020-03-07 14:15:27 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
-<engineerTo>
-<item key="4783F65C-C53E-9899-9B35-C4203822AC1D" value="true"/>
-</engineerTo>
-<pk>true</pk>
-<usedAttributes>
-<attributeRef>E5E7FB49-22D6-163C-10FC-FC1B7D5416AC</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
 </Entity>

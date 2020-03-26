@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="08AD1F45-3E63-2FCA-5E31-599C8447EF56" name="Title_director">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="08AD1F45-3E63-2FCA-5E31-599C8447EF56" name="Title director">
 <createdBy>carrc</createdBy>
 <createdTime>2020-03-07 14:33:51 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
+<item key="20DE8314-9FA1-4284-E60D-DE0D360C7C20" value="true"/>
 <item key="4783F65C-C53E-9899-9B35-C4203822AC1D" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -15,26 +16,21 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="title_id" id="29A76C1D-EDD9-0DF8-4FE0-4A62532246EA">
+<Attribute name="Director name id" id="C4726E97-A1FE-C979-8653-9461CE2273FD">
 <createdBy>carrc</createdBy>
-<createdTime>2020-03-07 14:34:33 UTC</createdTime>
+<createdTime>2020-03-25 16:06:27 UTC</createdTime>
+<generatorID>8F2D2770-D3EB-B0BB-2B01-56871D0F5CAF</generatorID>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
+<item key="20DE8314-9FA1-4284-E60D-DE0D360C7C20" value="true"/>
 <item key="4783F65C-C53E-9899-9B35-C4203822AC1D" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="director_id" id="9FCF6F4C-E468-FCDA-EDCB-308E906A06C7">
-<createdBy>carrc</createdBy>
-<createdTime>2020-03-07 14:34:45 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
-<engineerTo>
-<item key="4783F65C-C53E-9899-9B35-C4203822AC1D" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<referedAttribute>5CDA7B22-478C-D629-5E5E-B0458C1870A3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 BYTE</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

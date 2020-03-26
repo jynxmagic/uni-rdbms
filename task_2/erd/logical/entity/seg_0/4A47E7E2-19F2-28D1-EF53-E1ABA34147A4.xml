@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4A47E7E2-19F2-28D1-EF53-E1ABA34147A4" name="Job_Categories">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4A47E7E2-19F2-28D1-EF53-E1ABA34147A4" name="Job Categories">
 <createdBy>carrc</createdBy>
 <createdTime>2020-03-07 14:24:14 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
+<item key="20DE8314-9FA1-4284-E60D-DE0D360C7C20" value="true"/>
 <item key="4783F65C-C53E-9899-9B35-C4203822AC1D" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -15,45 +16,20 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="job_category_id" id="FD3DDF2D-97C5-D168-8E54-534332BAD0AF">
+<Attribute name="job category" id="A74AF47F-05B7-C9EB-A373-8F3E9BE48E21">
 <createdBy>carrc</createdBy>
-<createdTime>2020-03-07 14:24:42 UTC</createdTime>
+<createdTime>2020-03-25 16:08:03 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
+<item key="20DE8314-9FA1-4284-E60D-DE0D360C7C20" value="true"/>
 <item key="4783F65C-C53E-9899-9B35-C4203822AC1D" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT057</logicalDatatype>
-<dataTypeSize>12 BYTE</dataTypeSize>
-<ownDataTypeParameters>12 BYTE,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="job_category" id="72DE5B15-2D69-D6CF-ECD2-4E130DE9F321">
-<createdBy>carrc</createdBy>
-<createdTime>2020-03-07 14:25:02 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
-<engineerTo>
-<item key="4783F65C-C53E-9899-9B35-C4203822AC1D" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT040</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="15FD6D95-4EAC-80B7-DFAF-9589D82E6465" name="Job_Categories PK">
-<createdBy>carrc</createdBy>
-<createdTime>2020-03-07 14:24:58 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
-<engineerTo>
-<item key="4783F65C-C53E-9899-9B35-C4203822AC1D" value="false"/>
-</engineerTo>
-<pk>true</pk>
-<usedAttributes>
-<attributeRef>FD3DDF2D-97C5-D168-8E54-534332BAD0AF</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
 </Entity>

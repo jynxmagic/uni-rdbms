@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="09AC413A-84A7-709F-0BEF-91103BF80B39" name="Title_genre">
+<createdBy>carrc</createdBy>
+<createdTime>2020-03-25 16:14:14 UTC</createdTime>
+<generatorID>0158E200-FEA5-AB05-9C92-58EEC6EAA1F1</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Title_Title_ID" id="C795B7EE-8B89-F092-C55A-706A5996485F">
+<createdBy>carrc</createdBy>
+<createdTime>2020-03-25 16:14:14 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C5417378-955E-7917-A12A-C4D3BEE905EE" referredColumn="C3116D41-892C-A2D7-DA70-86406DA805FC"/>
+</associations>
+</Column>
+<Column name="Genre_Genre_ID" id="DDD544AC-F1DF-EF26-ECDD-AEED061052DE">
+<createdBy>carrc</createdBy>
+<createdTime>2020-03-25 16:14:14 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D99C4591-779C-2CBC-437C-58098400EC32" referredColumn="9CE58780-B962-CB17-E3CE-11214FD710BB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8B3D933C-F38F-3DE6-E56F-ADAD4BEFAC90" name="Title_genre_Title_FK">
+<createdBy>carrc</createdBy>
+<createdTime>2020-03-25 16:14:14 UTC</createdTime>
+<generatorID>5E794098-0909-9677-DBFC-267AA381F2AB</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C795B7EE-8B89-F092-C55A-706A5996485F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1126F1A4-5A68-5804-237D-5039E45C1ABA" name="Title_genre_Genre_FK">
+<createdBy>carrc</createdBy>
+<createdTime>2020-03-25 16:14:14 UTC</createdTime>
+<generatorID>94E1DA11-3D3D-83DA-044C-FB94881ADCE0</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDD544AC-F1DF-EF26-ECDD-AEED061052DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B39C8B23-3789-4969-146D-F947357117F9" name="Principal_title">
+<createdBy>carrc</createdBy>
+<createdTime>2020-03-25 16:14:14 UTC</createdTime>
+<generatorID>6F3D1FF7-9509-1702-6C96-674051740470</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Principal_name_id" id="3BECA4F0-70D4-8F94-6BA2-5D7AC067EC7A">
+<createdBy>carrc</createdBy>
+<createdTime>2020-03-25 16:14:14 UTC</createdTime>
+<generatorID>757DEC8E-A08E-38ED-306F-34F21912944F</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>12 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D8058A0B-671A-326E-C69F-15E9CB581293" referredColumn="534C395F-1FCF-2278-F779-E147AA80BCA4"/>
+</associations>
+</Column>
+<Column name="Title_Title_ID" id="BA6A3EE5-37FE-FB2A-E2C7-82A3E5D78287">
+<createdBy>carrc</createdBy>
+<createdTime>2020-03-25 16:14:14 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5106BFC-B69A-D476-35D3-64E8032E8723" referredColumn="C3116D41-892C-A2D7-DA70-86406DA805FC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1123F0E1-9399-DA85-A533-84F8111EC316" name="Principal_title_Principal_FK">
+<createdBy>carrc</createdBy>
+<createdTime>2020-03-25 16:14:14 UTC</createdTime>
+<generatorID>CDC86756-4729-8D95-7551-E9FA8CE3CFFD</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BECA4F0-70D4-8F94-6BA2-5D7AC067EC7A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5931E01A-D0E7-3D84-F58B-27358E1F6944" name="Principal_title_Title_FK">
+<createdBy>carrc</createdBy>
+<createdTime>2020-03-25 16:14:14 UTC</createdTime>
+<generatorID>4D1B35D6-C72D-A073-2FFC-9EABCCF9D700</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA6A3EE5-37FE-FB2A-E2C7-82A3E5D78287"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

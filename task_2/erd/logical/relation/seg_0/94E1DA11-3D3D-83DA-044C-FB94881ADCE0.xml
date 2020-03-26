@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Title genre Genre FK" directorySegmentName="seg_0" id="94E1DA11-3D3D-83DA-044C-FB94881ADCE0">
+<createdBy>carrc</createdBy>
+<createdTime>2020-03-25 15:43:45 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="20DE8314-9FA1-4284-E60D-DE0D360C7C20" value="true"/>
+<item key="4783F65C-C53E-9899-9B35-C4203822AC1D" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0AA5B38C-A222-97CA-C7BA-0360B17CBBEA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0158E200-FEA5-AB05-9C92-58EEC6EAA1F1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

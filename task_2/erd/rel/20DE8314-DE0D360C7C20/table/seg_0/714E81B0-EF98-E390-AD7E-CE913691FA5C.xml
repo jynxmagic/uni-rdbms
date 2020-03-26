@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="714E81B0-EF98-E390-AD7E-CE913691FA5C" name="Director">
+<createdBy>carrc</createdBy>
+<createdTime>2020-03-25 16:14:14 UTC</createdTime>
+<generatorID>693514C6-9442-E147-9072-8A5D99E3AEA9</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="name_id" id="35AEDD7D-9B45-4C35-AAF4-3CACAFAC73AA">
+<createdBy>carrc</createdBy>
+<createdTime>2020-03-25 16:14:14 UTC</createdTime>
+<generatorID>5CDA7B22-478C-D629-5E5E-B0458C1870A3</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="93A26378-6B50-080A-E8EC-68E4E7681CFF" referredColumn="6784BF47-697A-212D-3630-4892A5D4CD01"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="219B36C6-1C2A-297A-37E6-A0C0CD764F50" name="Director_name_id_UN">
+<createdBy>carrc</createdBy>
+<createdTime>2020-03-25 16:14:14 UTC</createdTime>
+<generatorID>774D9923-F1C5-BB22-8EF1-EF8753AC7392</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35AEDD7D-9B45-4C35-AAF4-3CACAFAC73AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E07B3C80-FB73-4DD1-2E5B-D1AEF2FC4D1E" name="Director_People_FK">
+<createdBy>carrc</createdBy>
+<createdTime>2020-03-25 16:14:14 UTC</createdTime>
+<generatorID>6CFE976C-282B-D746-D42C-1FA6BB21848C</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35AEDD7D-9B45-4C35-AAF4-3CACAFAC73AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

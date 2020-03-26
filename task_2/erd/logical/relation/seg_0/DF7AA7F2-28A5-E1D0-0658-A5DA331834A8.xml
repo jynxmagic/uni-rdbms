@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Title writer Writer FK" directorySegmentName="seg_0" id="DF7AA7F2-28A5-E1D0-0658-A5DA331834A8">
+<createdBy>carrc</createdBy>
+<createdTime>2020-03-25 16:06:37 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="20DE8314-9FA1-4284-E60D-DE0D360C7C20" value="true"/>
+<item key="4783F65C-C53E-9899-9B35-C4203822AC1D" value="true"/>
+</engineerTo>
+<sourcePk>774D9923-F1C5-BB22-8EF1-EF8753AC7392</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C38F01A0-0296-7178-CDE8-047895284062</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2D76AC2B-ADA0-A1B7-92F6-F614A398DB15</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

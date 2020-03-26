@@ -4,6 +4,7 @@
 <createdTime>2020-03-07 14:35:02 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
+<item key="20DE8314-9FA1-4284-E60D-DE0D360C7C20" value="true"/>
 <item key="4783F65C-C53E-9899-9B35-C4203822AC1D" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -18,28 +19,4 @@
 <attributeInherType>All atributes</attributeInherType>
 <discriminatorAttributeID>2C480E7D-B903-8325-2284-445E58DB38AC</discriminatorAttributeID>
 <createSurrogateKey>true</createSurrogateKey>
-<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="director_id" id="45A70854-961E-25CD-C2F7-A93712A3A366">
-<createdBy>carrc</createdBy>
-<createdTime>2020-03-07 14:35:08 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
-<engineerTo>
-<item key="4783F65C-C53E-9899-9B35-C4203822AC1D" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="name_id" id="2C480E7D-B903-8325-2284-445E58DB38AC">
-<createdBy>carrc</createdBy>
-<createdTime>2020-03-07 14:35:12 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
-<engineerTo>
-<item key="4783F65C-C53E-9899-9B35-C4203822AC1D" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-</attributes>
 </Entity>

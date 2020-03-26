@@ -4,6 +4,7 @@
 <createdTime>2020-03-07 14:20:36 UTC</createdTime>
 <ownerDesignName>erd</ownerDesignName>
 <engineerTo>
+<item key="20DE8314-9FA1-4284-E60D-DE0D360C7C20" value="true"/>
 <item key="4783F65C-C53E-9899-9B35-C4203822AC1D" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -15,77 +16,4 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="principal_id" id="95B573E2-2372-5B93-0FD1-384B0D586113">
-<createdBy>carrc</createdBy>
-<createdTime>2020-03-07 14:20:41 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
-<engineerTo>
-<item key="4783F65C-C53E-9899-9B35-C4203822AC1D" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT057</logicalDatatype>
-<dataTypeSize>12 BYTE</dataTypeSize>
-<ownDataTypeParameters>12 BYTE,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="name_id" id="27781191-6C32-B139-AFAA-745060E9F900">
-<createdBy>carrc</createdBy>
-<createdTime>2020-03-07 14:20:56 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
-<engineerTo>
-<item key="4783F65C-C53E-9899-9B35-C4203822AC1D" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT057</logicalDatatype>
-<dataTypeSize>12 BYTE</dataTypeSize>
-<ownDataTypeParameters>12 BYTE,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="principal_id1" id="FDA75142-BC3C-716A-5ACF-0DC58F730121">
-<createdBy>carrc</createdBy>
-<createdTime>2020-03-08 14:13:20 UTC</createdTime>
-<generatorID>4BC05681-0B71-79EF-8B27-A5A5376B8DA7</generatorID>
-<ownerDesignName>erd</ownerDesignName>
-<engineerTo>
-<item key="4783F65C-C53E-9899-9B35-C4203822AC1D" value="true"/>
-</engineerTo>
-<referedAttribute>BA91E13D-630B-0359-F2B1-0ACB96A6153E</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT057</logicalDatatype>
-<dataTypeSize>12 BYTE</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="title_id" id="9FB5276B-EAB1-CCDB-1F53-1175A2FD6E0D">
-<createdBy>carrc</createdBy>
-<createdTime>2020-03-08 14:13:20 UTC</createdTime>
-<generatorID>4BC05681-0B71-79EF-8B27-A5A5376B8DA7</generatorID>
-<ownerDesignName>erd</ownerDesignName>
-<engineerTo>
-<item key="4783F65C-C53E-9899-9B35-C4203822AC1D" value="true"/>
-</engineerTo>
-<referedAttribute>9E0C5C11-6E1F-3FAC-9142-87C22F86384A</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT057</logicalDatatype>
-<dataTypeSize>12 BYTE</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-</attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="29B3AE4D-1116-3547-A544-CE03786E8064" name="Principal PK">
-<createdBy>carrc</createdBy>
-<createdTime>2020-03-07 14:20:54 UTC</createdTime>
-<ownerDesignName>erd</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
-<engineerTo>
-<item key="4783F65C-C53E-9899-9B35-C4203822AC1D" value="false"/>
-</engineerTo>
-<pk>true</pk>
-<usedAttributes>
-<attributeRef>95B573E2-2372-5B93-0FD1-384B0D586113</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
 </Entity>

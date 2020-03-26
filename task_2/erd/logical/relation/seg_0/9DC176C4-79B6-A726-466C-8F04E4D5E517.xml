@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="People Title Title FK" directorySegmentName="seg_0" id="9DC176C4-79B6-A726-466C-8F04E4D5E517">
+<createdBy>carrc</createdBy>
+<createdTime>2020-03-25 16:05:01 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="20DE8314-9FA1-4284-E60D-DE0D360C7C20" value="true"/>
+<item key="4783F65C-C53E-9899-9B35-C4203822AC1D" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6A54144E-7A5B-7568-4109-B88F4DD48646</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>88B17113-3990-6446-2B6F-26CFDF80CDFE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

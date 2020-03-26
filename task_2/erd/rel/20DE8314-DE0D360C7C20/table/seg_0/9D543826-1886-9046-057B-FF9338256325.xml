@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9D543826-1886-9046-057B-FF9338256325" name="People_Profession">
+<createdBy>carrc</createdBy>
+<createdTime>2020-03-25 16:14:14 UTC</createdTime>
+<generatorID>59256AD1-8FFC-4EF6-B6FC-2B290A4CAE06</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="People_name_id" id="2482D6EC-256D-97A2-6283-058178522DE8">
+<createdBy>carrc</createdBy>
+<createdTime>2020-03-25 16:14:14 UTC</createdTime>
+<generatorID>75E25D24-486D-AFA3-798C-D07474B7FB21</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>12 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="25D1E9B3-D04E-863E-3928-B65A977C476B" referredColumn="6784BF47-697A-212D-3630-4892A5D4CD01"/>
+</associations>
+</Column>
+<Column name="Profession_Profession_ID" id="A512A822-CAD0-38DA-0019-0E0A78B90F73">
+<createdBy>carrc</createdBy>
+<createdTime>2020-03-25 16:14:14 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="11B0C19B-25C2-FDC4-37FD-161B29FCA0C0" referredColumn="69CF6D8F-EDE3-F0C7-934C-DA213417409C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="76B8319A-C01E-DB93-D7DD-206230079F4F" name="People_Profession_People_FK">
+<createdBy>carrc</createdBy>
+<createdTime>2020-03-25 16:14:14 UTC</createdTime>
+<generatorID>E1C10037-96C9-FAFF-2E32-A9DF0B4B9EBA</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2482D6EC-256D-97A2-6283-058178522DE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2ADF257B-2A00-DE72-7DDB-20A9D88CE93A" name="People_Profession_Profession_FK">
+<createdBy>carrc</createdBy>
+<createdTime>2020-03-25 16:14:14 UTC</createdTime>
+<generatorID>1358EAF7-3721-2AEA-A777-B83A2E3B577A</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A512A822-CAD0-38DA-0019-0E0A78B90F73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
